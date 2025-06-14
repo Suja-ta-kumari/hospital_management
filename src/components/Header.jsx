@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Header = () => {
   return (
-    <div className='flex flex-col md:flex-row flex-wrap bg-primary rounded-lg px-6 md:px-10 lg:px-20' >
+    <div className='flex flex-col md:flex-row flex-wrap bg-teal-200 rounded-lg px-6 md:px-10 lg:px-20' >
 
         {/* ---- left Side---- */}
         <div className='md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]'>
@@ -21,7 +21,7 @@ const Header = () => {
         </div>
         {/* ---- right side---- */}
         <div className='md:w-1/2 relative'>
-            <img className='w-full md:absolute bottom-0 h-auto rounded-lg' src={assets.header_img} alt="" />
+            <img className='w-full md:absolute bottom-0 h-auto rounded-lg' src={assets.heading} alt="" />
 
         </div>
       
